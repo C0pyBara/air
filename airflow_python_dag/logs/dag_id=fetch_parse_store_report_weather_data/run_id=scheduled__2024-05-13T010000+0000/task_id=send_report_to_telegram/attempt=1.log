@@ -1,0 +1,23 @@
+[2024-05-27T08:00:19.291+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-27T08:00:19.348+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fetch_parse_store_report_weather_data.send_report_to_telegram scheduled__2024-05-13T01:00:00+00:00 [queued]>
+[2024-05-27T08:00:19.367+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fetch_parse_store_report_weather_data.send_report_to_telegram scheduled__2024-05-13T01:00:00+00:00 [queued]>
+[2024-05-27T08:00:19.369+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 2
+[2024-05-27T08:00:19.400+0000] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): send_report_to_telegram> on 2024-05-13 01:00:00+00:00
+[2024-05-27T08:00:19.422+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=8997) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-05-27T08:00:19.425+0000] {standard_task_runner.py:63} INFO - Started process 9197 to run task
+[2024-05-27T08:00:19.426+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'fetch_parse_store_report_weather_data', 'send_report_to_telegram', 'scheduled__2024-05-13T01:00:00+00:00', '--job-id', '11431', '--raw', '--subdir', 'DAGS_FOLDER/cris.py', '--cfg-path', '/tmp/tmp2wexlgyw']
+[2024-05-27T08:00:19.428+0000] {standard_task_runner.py:91} INFO - Job 11431: Subtask send_report_to_telegram
+[2024-05-27T08:00:19.526+0000] {task_command.py:426} INFO - Running <TaskInstance: fetch_parse_store_report_weather_data.send_report_to_telegram scheduled__2024-05-13T01:00:00+00:00 [running]> on host b151419bfa2a
+[2024-05-27T08:00:19.797+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='fetch_parse_store_report_weather_data' AIRFLOW_CTX_TASK_ID='send_report_to_telegram' AIRFLOW_CTX_EXECUTION_DATE='2024-05-13T01:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-05-13T01:00:00+00:00'
+[2024-05-27T08:00:19.800+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-27T08:00:19.802+0000] {logging_mixin.py:188} INFO - File /tmp/report.txt does not exist
+[2024-05-27T08:00:19.803+0000] {logging_mixin.py:188} INFO - File /tmp/temperature_plot.png does not exist
+[2024-05-27T08:00:19.804+0000] {logging_mixin.py:188} INFO - File /tmp/pressure_plot.png does not exist
+[2024-05-27T08:00:19.805+0000] {python.py:237} INFO - Done. Returned value was: None
+[2024-05-27T08:00:19.805+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-27T08:00:19.824+0000] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=fetch_parse_store_report_weather_data, task_id=send_report_to_telegram, execution_date=20240513T010000, start_date=20240527T080019, end_date=20240527T080019
+[2024-05-27T08:00:19.885+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-05-27T08:00:19.923+0000] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-05-27T08:00:19.938+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

@@ -1,0 +1,286 @@
+[2024-05-27T05:33:40.755+0000] {processor.py:161} INFO - Started process (PID=37) to work on /opt/airflow/dags/integrate.py
+[2024-05-27T05:33:40.757+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/integrate.py for tasks to queue
+[2024-05-27T05:33:40.761+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:33:40.760+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/integrate.py
+[2024-05-27T05:33:41.735+0000] {processor.py:840} INFO - DAG(s) 'integrate' retrieved from /opt/airflow/dags/integrate.py
+[2024-05-27T05:33:41.770+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:33:41.769+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-27T05:33:41.846+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:33:41.846+0000] {dag.py:3954} INFO - Setting next_dagrun for integrate to 2024-05-27 00:00:00+00:00, run_after=2024-05-28 00:00:00+00:00
+[2024-05-27T05:33:41.878+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/integrate.py took 1.134 seconds
+[2024-05-27T05:34:32.205+0000] {processor.py:161} INFO - Started process (PID=148) to work on /opt/airflow/dags/integrate.py
+[2024-05-27T05:34:32.207+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/integrate.py for tasks to queue
+[2024-05-27T05:34:32.211+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:34:32.210+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/integrate.py
+[2024-05-27T05:34:33.153+0000] {processor.py:840} INFO - DAG(s) 'integrate' retrieved from /opt/airflow/dags/integrate.py
+[2024-05-27T05:34:33.183+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:34:33.182+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-27T05:34:33.239+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:34:33.239+0000] {dag.py:3954} INFO - Setting next_dagrun for integrate to 2024-05-27 00:00:00+00:00, run_after=2024-05-28 00:00:00+00:00
+[2024-05-27T05:34:33.282+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/integrate.py took 1.090 seconds
+[2024-05-27T05:35:03.944+0000] {processor.py:161} INFO - Started process (PID=236) to work on /opt/airflow/dags/integrate.py
+[2024-05-27T05:35:03.952+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/integrate.py for tasks to queue
+[2024-05-27T05:35:03.961+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:35:03.960+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/integrate.py
+[2024-05-27T05:35:12.945+0000] {processor.py:840} INFO - DAG(s) 'integrate' retrieved from /opt/airflow/dags/integrate.py
+[2024-05-27T05:35:12.974+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:35:12.973+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-27T05:35:13.023+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:35:13.022+0000] {dag.py:3954} INFO - Setting next_dagrun for integrate to 2024-05-27 00:00:00+00:00, run_after=2024-05-28 00:00:00+00:00
+[2024-05-27T05:35:13.065+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/integrate.py took 9.131 seconds
+[2024-05-27T05:35:45.781+0000] {processor.py:161} INFO - Started process (PID=372) to work on /opt/airflow/dags/integrate.py
+[2024-05-27T05:35:45.783+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/integrate.py for tasks to queue
+[2024-05-27T05:35:45.785+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:35:45.784+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/integrate.py
+[2024-05-27T05:35:50.540+0000] {processor.py:840} INFO - DAG(s) 'integrate' retrieved from /opt/airflow/dags/integrate.py
+[2024-05-27T05:35:50.590+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:35:50.589+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-27T05:35:50.640+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:35:50.640+0000] {dag.py:3954} INFO - Setting next_dagrun for integrate to 2024-05-27 00:00:00+00:00, run_after=2024-05-28 00:00:00+00:00
+[2024-05-27T05:35:50.720+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/integrate.py took 4.949 seconds
+[2024-05-27T05:36:20.877+0000] {processor.py:161} INFO - Started process (PID=460) to work on /opt/airflow/dags/integrate.py
+[2024-05-27T05:36:20.880+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/integrate.py for tasks to queue
+[2024-05-27T05:36:20.882+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:36:20.881+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/integrate.py
+[2024-05-27T05:36:21.705+0000] {processor.py:840} INFO - DAG(s) 'integrate' retrieved from /opt/airflow/dags/integrate.py
+[2024-05-27T05:36:21.723+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:36:21.723+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-27T05:36:21.750+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:36:21.749+0000] {dag.py:3954} INFO - Setting next_dagrun for integrate to 2024-05-27 00:00:00+00:00, run_after=2024-05-28 00:00:00+00:00
+[2024-05-27T05:36:21.819+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/integrate.py took 0.962 seconds
+[2024-05-27T05:36:52.570+0000] {processor.py:161} INFO - Started process (PID=550) to work on /opt/airflow/dags/integrate.py
+[2024-05-27T05:36:52.573+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/integrate.py for tasks to queue
+[2024-05-27T05:36:52.575+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:36:52.574+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/integrate.py
+[2024-05-27T05:36:53.362+0000] {processor.py:840} INFO - DAG(s) 'integrate' retrieved from /opt/airflow/dags/integrate.py
+[2024-05-27T05:36:53.381+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:36:53.380+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-27T05:36:53.405+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:36:53.404+0000] {dag.py:3954} INFO - Setting next_dagrun for integrate to 2024-05-27 00:00:00+00:00, run_after=2024-05-28 00:00:00+00:00
+[2024-05-27T05:36:53.427+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/integrate.py took 0.868 seconds
+[2024-05-27T05:37:23.927+0000] {processor.py:161} INFO - Started process (PID=640) to work on /opt/airflow/dags/integrate.py
+[2024-05-27T05:37:23.928+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/integrate.py for tasks to queue
+[2024-05-27T05:37:23.931+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:37:23.930+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/integrate.py
+[2024-05-27T05:37:24.602+0000] {processor.py:840} INFO - DAG(s) 'integrate' retrieved from /opt/airflow/dags/integrate.py
+[2024-05-27T05:37:24.623+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:37:24.622+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-27T05:37:24.650+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:37:24.650+0000] {dag.py:3954} INFO - Setting next_dagrun for integrate to 2024-05-27 00:00:00+00:00, run_after=2024-05-28 00:00:00+00:00
+[2024-05-27T05:37:24.671+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/integrate.py took 0.752 seconds
+[2024-05-27T05:37:54.795+0000] {processor.py:161} INFO - Started process (PID=729) to work on /opt/airflow/dags/integrate.py
+[2024-05-27T05:37:54.797+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/integrate.py for tasks to queue
+[2024-05-27T05:37:54.798+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:37:54.798+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/integrate.py
+[2024-05-27T05:37:55.414+0000] {processor.py:840} INFO - DAG(s) 'integrate' retrieved from /opt/airflow/dags/integrate.py
+[2024-05-27T05:37:55.432+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:37:55.431+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-27T05:37:55.460+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:37:55.459+0000] {dag.py:3954} INFO - Setting next_dagrun for integrate to 2024-05-27 00:00:00+00:00, run_after=2024-05-28 00:00:00+00:00
+[2024-05-27T05:37:55.479+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/integrate.py took 0.693 seconds
+[2024-05-27T05:38:25.884+0000] {processor.py:161} INFO - Started process (PID=812) to work on /opt/airflow/dags/integrate.py
+[2024-05-27T05:38:25.885+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/integrate.py for tasks to queue
+[2024-05-27T05:38:25.886+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:38:25.886+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/integrate.py
+[2024-05-27T05:38:26.396+0000] {processor.py:840} INFO - DAG(s) 'integrate' retrieved from /opt/airflow/dags/integrate.py
+[2024-05-27T05:38:26.415+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:38:26.415+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-27T05:38:26.441+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:38:26.440+0000] {dag.py:3954} INFO - Setting next_dagrun for integrate to 2024-05-27 00:00:00+00:00, run_after=2024-05-28 00:00:00+00:00
+[2024-05-27T05:38:26.460+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/integrate.py took 0.583 seconds
+[2024-05-27T05:38:56.664+0000] {processor.py:161} INFO - Started process (PID=889) to work on /opt/airflow/dags/integrate.py
+[2024-05-27T05:38:56.665+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/integrate.py for tasks to queue
+[2024-05-27T05:38:56.666+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:38:56.665+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/integrate.py
+[2024-05-27T05:38:57.294+0000] {processor.py:840} INFO - DAG(s) 'integrate' retrieved from /opt/airflow/dags/integrate.py
+[2024-05-27T05:38:57.321+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:38:57.320+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-27T05:38:57.362+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:38:57.362+0000] {dag.py:3954} INFO - Setting next_dagrun for integrate to 2024-05-27 00:00:00+00:00, run_after=2024-05-28 00:00:00+00:00
+[2024-05-27T05:38:57.385+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/integrate.py took 0.727 seconds
+[2024-05-27T05:39:27.951+0000] {processor.py:161} INFO - Started process (PID=978) to work on /opt/airflow/dags/integrate.py
+[2024-05-27T05:39:27.952+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/integrate.py for tasks to queue
+[2024-05-27T05:39:27.953+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:39:27.952+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/integrate.py
+[2024-05-27T05:39:28.516+0000] {processor.py:840} INFO - DAG(s) 'integrate' retrieved from /opt/airflow/dags/integrate.py
+[2024-05-27T05:39:28.533+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:39:28.532+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-27T05:39:28.556+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:39:28.556+0000] {dag.py:3954} INFO - Setting next_dagrun for integrate to 2024-05-27 00:00:00+00:00, run_after=2024-05-28 00:00:00+00:00
+[2024-05-27T05:39:28.576+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/integrate.py took 0.631 seconds
+[2024-05-27T05:39:58.848+0000] {processor.py:161} INFO - Started process (PID=1068) to work on /opt/airflow/dags/integrate.py
+[2024-05-27T05:39:58.850+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/integrate.py for tasks to queue
+[2024-05-27T05:39:58.851+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:39:58.851+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/integrate.py
+[2024-05-27T05:39:59.535+0000] {processor.py:840} INFO - DAG(s) 'integrate' retrieved from /opt/airflow/dags/integrate.py
+[2024-05-27T05:39:59.553+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:39:59.553+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-27T05:39:59.580+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:39:59.580+0000] {dag.py:3954} INFO - Setting next_dagrun for integrate to 2024-05-27 00:00:00+00:00, run_after=2024-05-28 00:00:00+00:00
+[2024-05-27T05:39:59.600+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/integrate.py took 0.762 seconds
+[2024-05-27T05:40:30.442+0000] {processor.py:161} INFO - Started process (PID=1158) to work on /opt/airflow/dags/integrate.py
+[2024-05-27T05:40:30.443+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/integrate.py for tasks to queue
+[2024-05-27T05:40:30.444+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:40:30.444+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/integrate.py
+[2024-05-27T05:40:31.005+0000] {processor.py:840} INFO - DAG(s) 'integrate' retrieved from /opt/airflow/dags/integrate.py
+[2024-05-27T05:40:31.021+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:40:31.021+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-27T05:40:31.044+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:40:31.044+0000] {dag.py:3954} INFO - Setting next_dagrun for integrate to 2024-05-27 00:00:00+00:00, run_after=2024-05-28 00:00:00+00:00
+[2024-05-27T05:40:31.066+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/integrate.py took 0.633 seconds
+[2024-05-27T05:41:01.282+0000] {processor.py:161} INFO - Started process (PID=1256) to work on /opt/airflow/dags/integrate.py
+[2024-05-27T05:41:01.286+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/integrate.py for tasks to queue
+[2024-05-27T05:41:01.290+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:41:01.289+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/integrate.py
+[2024-05-27T05:41:03.242+0000] {processor.py:840} INFO - DAG(s) 'integrate' retrieved from /opt/airflow/dags/integrate.py
+[2024-05-27T05:41:03.354+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:41:03.334+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-27T05:41:03.419+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:41:03.418+0000] {dag.py:3954} INFO - Setting next_dagrun for integrate to 2024-05-27 00:00:00+00:00, run_after=2024-05-28 00:00:00+00:00
+[2024-05-27T05:41:03.493+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/integrate.py took 2.225 seconds
+[2024-05-27T05:41:33.772+0000] {processor.py:161} INFO - Started process (PID=1364) to work on /opt/airflow/dags/integrate.py
+[2024-05-27T05:41:33.780+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/integrate.py for tasks to queue
+[2024-05-27T05:41:33.785+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:41:33.784+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/integrate.py
+[2024-05-27T05:41:35.651+0000] {processor.py:840} INFO - DAG(s) 'integrate' retrieved from /opt/airflow/dags/integrate.py
+[2024-05-27T05:41:35.689+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:41:35.688+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-27T05:41:35.836+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:41:35.833+0000] {dag.py:3954} INFO - Setting next_dagrun for integrate to 2024-05-27 00:00:00+00:00, run_after=2024-05-28 00:00:00+00:00
+[2024-05-27T05:41:35.893+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/integrate.py took 2.132 seconds
+[2024-05-27T05:42:07.898+0000] {processor.py:161} INFO - Started process (PID=1463) to work on /opt/airflow/dags/integrate.py
+[2024-05-27T05:42:07.905+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/integrate.py for tasks to queue
+[2024-05-27T05:42:07.908+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:42:07.907+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/integrate.py
+[2024-05-27T05:42:09.603+0000] {processor.py:840} INFO - DAG(s) 'integrate' retrieved from /opt/airflow/dags/integrate.py
+[2024-05-27T05:42:09.667+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:42:09.666+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-27T05:42:09.718+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:42:09.717+0000] {dag.py:3954} INFO - Setting next_dagrun for integrate to 2024-05-27 00:00:00+00:00, run_after=2024-05-28 00:00:00+00:00
+[2024-05-27T05:42:09.764+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/integrate.py took 1.876 seconds
+[2024-05-27T05:42:40.055+0000] {processor.py:161} INFO - Started process (PID=1570) to work on /opt/airflow/dags/integrate.py
+[2024-05-27T05:42:40.057+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/integrate.py for tasks to queue
+[2024-05-27T05:42:40.058+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:42:40.057+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/integrate.py
+[2024-05-27T05:42:40.393+0000] {processor.py:840} INFO - DAG(s) 'integrate' retrieved from /opt/airflow/dags/integrate.py
+[2024-05-27T05:42:40.410+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:42:40.409+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-27T05:42:40.434+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:42:40.433+0000] {dag.py:3954} INFO - Setting next_dagrun for integrate to 2024-05-27 00:00:00+00:00, run_after=2024-05-28 00:00:00+00:00
+[2024-05-27T05:42:40.453+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/integrate.py took 0.403 seconds
+[2024-05-27T05:43:10.573+0000] {processor.py:161} INFO - Started process (PID=1646) to work on /opt/airflow/dags/integrate.py
+[2024-05-27T05:43:10.574+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/integrate.py for tasks to queue
+[2024-05-27T05:43:10.575+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:43:10.575+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/integrate.py
+[2024-05-27T05:43:10.936+0000] {processor.py:840} INFO - DAG(s) 'integrate' retrieved from /opt/airflow/dags/integrate.py
+[2024-05-27T05:43:10.955+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:43:10.954+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-27T05:43:10.982+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:43:10.981+0000] {dag.py:3954} INFO - Setting next_dagrun for integrate to 2024-05-27 00:00:00+00:00, run_after=2024-05-28 00:00:00+00:00
+[2024-05-27T05:43:11.008+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/integrate.py took 0.441 seconds
+[2024-05-27T05:43:41.388+0000] {processor.py:161} INFO - Started process (PID=1736) to work on /opt/airflow/dags/integrate.py
+[2024-05-27T05:43:41.389+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/integrate.py for tasks to queue
+[2024-05-27T05:43:41.390+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:43:41.389+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/integrate.py
+[2024-05-27T05:43:41.710+0000] {processor.py:840} INFO - DAG(s) 'integrate' retrieved from /opt/airflow/dags/integrate.py
+[2024-05-27T05:43:41.728+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:43:41.727+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-27T05:43:41.750+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:43:41.749+0000] {dag.py:3954} INFO - Setting next_dagrun for integrate to 2024-05-27 00:00:00+00:00, run_after=2024-05-28 00:00:00+00:00
+[2024-05-27T05:43:41.769+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/integrate.py took 0.387 seconds
+[2024-05-27T05:44:12.083+0000] {processor.py:161} INFO - Started process (PID=1826) to work on /opt/airflow/dags/integrate.py
+[2024-05-27T05:44:12.084+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/integrate.py for tasks to queue
+[2024-05-27T05:44:12.085+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:44:12.085+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/integrate.py
+[2024-05-27T05:44:12.410+0000] {processor.py:840} INFO - DAG(s) 'integrate' retrieved from /opt/airflow/dags/integrate.py
+[2024-05-27T05:44:12.428+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:44:12.427+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-27T05:44:12.453+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:44:12.453+0000] {dag.py:3954} INFO - Setting next_dagrun for integrate to 2024-05-27 00:00:00+00:00, run_after=2024-05-28 00:00:00+00:00
+[2024-05-27T05:44:12.472+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/integrate.py took 0.394 seconds
+[2024-05-27T05:44:42.777+0000] {processor.py:161} INFO - Started process (PID=1916) to work on /opt/airflow/dags/integrate.py
+[2024-05-27T05:44:42.779+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/integrate.py for tasks to queue
+[2024-05-27T05:44:42.780+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:44:42.779+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/integrate.py
+[2024-05-27T05:44:43.165+0000] {processor.py:840} INFO - DAG(s) 'integrate' retrieved from /opt/airflow/dags/integrate.py
+[2024-05-27T05:44:43.189+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:44:43.188+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-27T05:44:43.221+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:44:43.220+0000] {dag.py:3954} INFO - Setting next_dagrun for integrate to 2024-05-27 00:00:00+00:00, run_after=2024-05-28 00:00:00+00:00
+[2024-05-27T05:44:43.242+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/integrate.py took 0.472 seconds
+[2024-05-27T05:44:49.127+0000] {processor.py:161} INFO - Started process (PID=1924) to work on /opt/airflow/dags/integrate.py
+[2024-05-27T05:44:49.128+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/integrate.py for tasks to queue
+[2024-05-27T05:44:49.129+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:44:49.129+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/integrate.py
+[2024-05-27T05:44:49.506+0000] {processor.py:840} INFO - DAG(s) 'integrate' retrieved from /opt/airflow/dags/integrate.py
+[2024-05-27T05:44:49.525+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:44:49.524+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-27T05:44:49.555+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:44:49.555+0000] {dag.py:3954} INFO - Setting next_dagrun for integrate to 2024-05-27 00:00:00+00:00, run_after=2024-05-28 00:00:00+00:00
+[2024-05-27T05:44:49.585+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/integrate.py took 0.465 seconds
+[2024-05-27T05:45:19.717+0000] {processor.py:161} INFO - Started process (PID=2014) to work on /opt/airflow/dags/integrate.py
+[2024-05-27T05:45:19.718+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/integrate.py for tasks to queue
+[2024-05-27T05:45:19.720+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:45:19.719+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/integrate.py
+[2024-05-27T05:45:20.063+0000] {processor.py:840} INFO - DAG(s) 'integrate' retrieved from /opt/airflow/dags/integrate.py
+[2024-05-27T05:45:20.081+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:45:20.081+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-27T05:45:20.104+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:45:20.104+0000] {dag.py:3954} INFO - Setting next_dagrun for integrate to 2024-05-27 00:00:00+00:00, run_after=2024-05-28 00:00:00+00:00
+[2024-05-27T05:45:20.121+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/integrate.py took 0.410 seconds
+[2024-05-27T05:45:50.947+0000] {processor.py:161} INFO - Started process (PID=2104) to work on /opt/airflow/dags/integrate.py
+[2024-05-27T05:45:50.948+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/integrate.py for tasks to queue
+[2024-05-27T05:45:50.949+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:45:50.949+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/integrate.py
+[2024-05-27T05:45:51.279+0000] {processor.py:840} INFO - DAG(s) 'integrate' retrieved from /opt/airflow/dags/integrate.py
+[2024-05-27T05:45:51.297+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:45:51.296+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-27T05:45:51.322+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:45:51.322+0000] {dag.py:3954} INFO - Setting next_dagrun for integrate to 2024-05-27 00:00:00+00:00, run_after=2024-05-28 00:00:00+00:00
+[2024-05-27T05:45:51.342+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/integrate.py took 0.400 seconds
+[2024-05-27T05:46:21.844+0000] {processor.py:161} INFO - Started process (PID=2194) to work on /opt/airflow/dags/integrate.py
+[2024-05-27T05:46:21.845+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/integrate.py for tasks to queue
+[2024-05-27T05:46:21.846+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:46:21.845+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/integrate.py
+[2024-05-27T05:46:22.186+0000] {processor.py:840} INFO - DAG(s) 'integrate' retrieved from /opt/airflow/dags/integrate.py
+[2024-05-27T05:46:22.203+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:46:22.203+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-27T05:46:22.227+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:46:22.227+0000] {dag.py:3954} INFO - Setting next_dagrun for integrate to 2024-05-27 00:00:00+00:00, run_after=2024-05-28 00:00:00+00:00
+[2024-05-27T05:46:22.247+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/integrate.py took 0.409 seconds
+[2024-05-27T05:46:52.527+0000] {processor.py:161} INFO - Started process (PID=2272) to work on /opt/airflow/dags/integrate.py
+[2024-05-27T05:46:52.529+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/integrate.py for tasks to queue
+[2024-05-27T05:46:52.531+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:46:52.530+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/integrate.py
+[2024-05-27T05:46:52.913+0000] {processor.py:840} INFO - DAG(s) 'integrate' retrieved from /opt/airflow/dags/integrate.py
+[2024-05-27T05:46:52.930+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:46:52.930+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-27T05:46:52.952+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:46:52.952+0000] {dag.py:3954} INFO - Setting next_dagrun for integrate to 2024-05-27 00:00:00+00:00, run_after=2024-05-28 00:00:00+00:00
+[2024-05-27T05:46:52.974+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/integrate.py took 0.456 seconds
+[2024-05-27T05:47:23.198+0000] {processor.py:161} INFO - Started process (PID=2368) to work on /opt/airflow/dags/integrate.py
+[2024-05-27T05:47:23.199+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/integrate.py for tasks to queue
+[2024-05-27T05:47:23.200+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:47:23.200+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/integrate.py
+[2024-05-27T05:47:23.528+0000] {processor.py:840} INFO - DAG(s) 'integrate' retrieved from /opt/airflow/dags/integrate.py
+[2024-05-27T05:47:23.546+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:47:23.546+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-27T05:47:23.570+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:47:23.570+0000] {dag.py:3954} INFO - Setting next_dagrun for integrate to 2024-05-27 00:00:00+00:00, run_after=2024-05-28 00:00:00+00:00
+[2024-05-27T05:47:23.588+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/integrate.py took 0.396 seconds
+[2024-05-27T05:47:53.694+0000] {processor.py:161} INFO - Started process (PID=2476) to work on /opt/airflow/dags/integrate.py
+[2024-05-27T05:47:53.695+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/integrate.py for tasks to queue
+[2024-05-27T05:47:53.696+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:47:53.696+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/integrate.py
+[2024-05-27T05:47:54.045+0000] {processor.py:840} INFO - DAG(s) 'integrate' retrieved from /opt/airflow/dags/integrate.py
+[2024-05-27T05:47:54.063+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:47:54.063+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-27T05:47:54.086+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:47:54.085+0000] {dag.py:3954} INFO - Setting next_dagrun for integrate to 2024-05-27 00:00:00+00:00, run_after=2024-05-28 00:00:00+00:00
+[2024-05-27T05:47:54.104+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/integrate.py took 0.415 seconds
+[2024-05-27T05:48:24.628+0000] {processor.py:161} INFO - Started process (PID=2579) to work on /opt/airflow/dags/integrate.py
+[2024-05-27T05:48:24.630+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/integrate.py for tasks to queue
+[2024-05-27T05:48:24.633+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:48:24.633+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/integrate.py
+[2024-05-27T05:48:25.388+0000] {processor.py:840} INFO - DAG(s) 'integrate' retrieved from /opt/airflow/dags/integrate.py
+[2024-05-27T05:48:25.445+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:48:25.444+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-27T05:48:25.498+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:48:25.497+0000] {dag.py:3954} INFO - Setting next_dagrun for integrate to 2024-05-27 00:00:00+00:00, run_after=2024-05-28 00:00:00+00:00
+[2024-05-27T05:48:25.562+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/integrate.py took 0.943 seconds
+[2024-05-27T05:48:56.083+0000] {processor.py:161} INFO - Started process (PID=2670) to work on /opt/airflow/dags/integrate.py
+[2024-05-27T05:48:56.084+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/integrate.py for tasks to queue
+[2024-05-27T05:48:56.085+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:48:56.085+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/integrate.py
+[2024-05-27T05:48:56.427+0000] {processor.py:840} INFO - DAG(s) 'integrate' retrieved from /opt/airflow/dags/integrate.py
+[2024-05-27T05:48:56.446+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:48:56.446+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-27T05:48:56.475+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:48:56.474+0000] {dag.py:3954} INFO - Setting next_dagrun for integrate to 2024-05-27 00:00:00+00:00, run_after=2024-05-28 00:00:00+00:00
+[2024-05-27T05:48:56.496+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/integrate.py took 0.419 seconds
+[2024-05-27T05:49:26.597+0000] {processor.py:161} INFO - Started process (PID=2760) to work on /opt/airflow/dags/integrate.py
+[2024-05-27T05:49:26.598+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/integrate.py for tasks to queue
+[2024-05-27T05:49:26.600+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:49:26.600+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/integrate.py
+[2024-05-27T05:49:26.987+0000] {processor.py:840} INFO - DAG(s) 'integrate' retrieved from /opt/airflow/dags/integrate.py
+[2024-05-27T05:49:27.016+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:49:27.015+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-27T05:49:27.056+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:49:27.055+0000] {dag.py:3954} INFO - Setting next_dagrun for integrate to 2024-05-27 00:00:00+00:00, run_after=2024-05-28 00:00:00+00:00
+[2024-05-27T05:49:27.089+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/integrate.py took 0.501 seconds
+[2024-05-27T05:49:57.379+0000] {processor.py:161} INFO - Started process (PID=2857) to work on /opt/airflow/dags/integrate.py
+[2024-05-27T05:49:57.380+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/integrate.py for tasks to queue
+[2024-05-27T05:49:57.382+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:49:57.381+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/integrate.py
+[2024-05-27T05:49:57.736+0000] {processor.py:840} INFO - DAG(s) 'integrate' retrieved from /opt/airflow/dags/integrate.py
+[2024-05-27T05:49:57.756+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:49:57.755+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-27T05:49:57.784+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:49:57.783+0000] {dag.py:3954} INFO - Setting next_dagrun for integrate to 2024-05-27 00:00:00+00:00, run_after=2024-05-28 00:00:00+00:00
+[2024-05-27T05:49:57.806+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/integrate.py took 0.434 seconds
+[2024-05-27T05:50:28.028+0000] {processor.py:161} INFO - Started process (PID=2948) to work on /opt/airflow/dags/integrate.py
+[2024-05-27T05:50:28.029+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/integrate.py for tasks to queue
+[2024-05-27T05:50:28.030+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:50:28.030+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/integrate.py
+[2024-05-27T05:50:28.368+0000] {processor.py:840} INFO - DAG(s) 'integrate' retrieved from /opt/airflow/dags/integrate.py
+[2024-05-27T05:50:28.384+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:50:28.384+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-27T05:50:28.406+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:50:28.406+0000] {dag.py:3954} INFO - Setting next_dagrun for integrate to 2024-05-27 00:00:00+00:00, run_after=2024-05-28 00:00:00+00:00
+[2024-05-27T05:50:28.425+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/integrate.py took 0.403 seconds
+[2024-05-27T05:50:59.176+0000] {processor.py:161} INFO - Started process (PID=3025) to work on /opt/airflow/dags/integrate.py
+[2024-05-27T05:50:59.178+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/integrate.py for tasks to queue
+[2024-05-27T05:50:59.179+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:50:59.179+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/integrate.py
+[2024-05-27T05:50:59.536+0000] {processor.py:840} INFO - DAG(s) 'integrate' retrieved from /opt/airflow/dags/integrate.py
+[2024-05-27T05:50:59.554+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:50:59.553+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-27T05:50:59.577+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:50:59.577+0000] {dag.py:3954} INFO - Setting next_dagrun for integrate to 2024-05-27 00:00:00+00:00, run_after=2024-05-28 00:00:00+00:00
+[2024-05-27T05:50:59.597+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/integrate.py took 0.432 seconds
+[2024-05-27T05:51:06.545+0000] {processor.py:161} INFO - Started process (PID=3062) to work on /opt/airflow/dags/integrate.py
+[2024-05-27T05:51:06.546+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/integrate.py for tasks to queue
+[2024-05-27T05:51:06.547+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:51:06.547+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/integrate.py
+[2024-05-27T05:51:06.556+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:51:06.555+0000] {dagbag.py:329} INFO - File /opt/airflow/dags/integrate.py assumed to contain no DAGs. Skipping.
+[2024-05-27T05:51:06.556+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/integrate.py
+[2024-05-27T05:51:06.569+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/integrate.py took 0.030 seconds
+[2024-05-27T05:51:37.004+0000] {processor.py:161} INFO - Started process (PID=3150) to work on /opt/airflow/dags/integrate.py
+[2024-05-27T05:51:37.005+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/integrate.py for tasks to queue
+[2024-05-27T05:51:37.006+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:51:37.006+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/integrate.py
+[2024-05-27T05:51:37.014+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:51:37.014+0000] {dagbag.py:329} INFO - File /opt/airflow/dags/integrate.py assumed to contain no DAGs. Skipping.
+[2024-05-27T05:51:37.015+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/integrate.py
+[2024-05-27T05:51:37.030+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/integrate.py took 0.032 seconds
+[2024-05-27T05:52:07.714+0000] {processor.py:161} INFO - Started process (PID=3226) to work on /opt/airflow/dags/integrate.py
+[2024-05-27T05:52:07.715+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/integrate.py for tasks to queue
+[2024-05-27T05:52:07.716+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:52:07.716+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/integrate.py
+[2024-05-27T05:52:07.723+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:52:07.723+0000] {dagbag.py:329} INFO - File /opt/airflow/dags/integrate.py assumed to contain no DAGs. Skipping.
+[2024-05-27T05:52:07.723+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/integrate.py
+[2024-05-27T05:52:07.736+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/integrate.py took 0.028 seconds
+[2024-05-27T05:52:15.403+0000] {processor.py:161} INFO - Started process (PID=3257) to work on /opt/airflow/dags/integrate.py
+[2024-05-27T05:52:15.404+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/integrate.py for tasks to queue
+[2024-05-27T05:52:15.405+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:52:15.405+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/integrate.py
+[2024-05-27T05:52:15.414+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:52:15.414+0000] {dagbag.py:329} INFO - File /opt/airflow/dags/integrate.py assumed to contain no DAGs. Skipping.
+[2024-05-27T05:52:15.415+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/integrate.py
+[2024-05-27T05:52:15.429+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/integrate.py took 0.032 seconds
+[2024-05-27T05:52:33.490+0000] {processor.py:161} INFO - Started process (PID=3308) to work on /opt/airflow/dags/integrate.py
+[2024-05-27T05:52:33.492+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/integrate.py for tasks to queue
+[2024-05-27T05:52:33.493+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:52:33.493+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/integrate.py
+[2024-05-27T05:52:33.506+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:52:33.505+0000] {dagbag.py:329} INFO - File /opt/airflow/dags/integrate.py assumed to contain no DAGs. Skipping.
+[2024-05-27T05:52:33.506+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/integrate.py
+[2024-05-27T05:52:33.531+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/integrate.py took 0.050 seconds
+[2024-05-27T05:53:03.849+0000] {processor.py:161} INFO - Started process (PID=3401) to work on /opt/airflow/dags/integrate.py
+[2024-05-27T05:53:03.850+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/integrate.py for tasks to queue
+[2024-05-27T05:53:03.852+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:53:03.851+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/integrate.py
+[2024-05-27T05:53:03.862+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:53:03.862+0000] {dagbag.py:329} INFO - File /opt/airflow/dags/integrate.py assumed to contain no DAGs. Skipping.
+[2024-05-27T05:53:03.862+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/integrate.py
+[2024-05-27T05:53:03.880+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/integrate.py took 0.043 seconds
+[2024-05-27T05:53:06.378+0000] {processor.py:161} INFO - Started process (PID=3410) to work on /opt/airflow/dags/integrate.py
+[2024-05-27T05:53:06.379+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/integrate.py for tasks to queue
+[2024-05-27T05:53:06.380+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:53:06.380+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/integrate.py
+[2024-05-27T05:53:06.389+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:53:06.389+0000] {dagbag.py:329} INFO - File /opt/airflow/dags/integrate.py assumed to contain no DAGs. Skipping.
+[2024-05-27T05:53:06.389+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/integrate.py
+[2024-05-27T05:53:06.403+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/integrate.py took 0.032 seconds
+[2024-05-27T05:53:07.917+0000] {processor.py:161} INFO - Started process (PID=3417) to work on /opt/airflow/dags/integrate.py
+[2024-05-27T05:53:07.918+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/integrate.py for tasks to queue
+[2024-05-27T05:53:07.919+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:53:07.919+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/integrate.py
+[2024-05-27T05:53:07.926+0000] {logging_mixin.py:188} INFO - [2024-05-27T05:53:07.926+0000] {dagbag.py:329} INFO - File /opt/airflow/dags/integrate.py assumed to contain no DAGs. Skipping.
+[2024-05-27T05:53:07.926+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/integrate.py
+[2024-05-27T05:53:07.940+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/integrate.py took 0.031 seconds

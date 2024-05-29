@@ -1,0 +1,21 @@
+[2024-05-15T07:23:08.754+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-15T07:23:08.778+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fetch_and_parse_cris_data.fetch_cris_data scheduled__2024-05-08T16:00:00+00:00 [queued]>
+[2024-05-15T07:23:08.784+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fetch_and_parse_cris_data.fetch_cris_data scheduled__2024-05-08T16:00:00+00:00 [queued]>
+[2024-05-15T07:23:08.785+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 2
+[2024-05-15T07:23:08.798+0000] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): fetch_cris_data> on 2024-05-08 16:00:00+00:00
+[2024-05-15T07:23:08.805+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=823) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-05-15T07:23:08.807+0000] {standard_task_runner.py:63} INFO - Started process 826 to run task
+[2024-05-15T07:23:08.806+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'fetch_and_parse_cris_data', 'fetch_cris_data', 'scheduled__2024-05-08T16:00:00+00:00', '--job-id', '2148', '--raw', '--subdir', 'DAGS_FOLDER/cris.py', '--cfg-path', '/tmp/tmpnvov2ir0']
+[2024-05-15T07:23:08.808+0000] {standard_task_runner.py:91} INFO - Job 2148: Subtask fetch_cris_data
+[2024-05-15T07:23:08.852+0000] {task_command.py:426} INFO - Running <TaskInstance: fetch_and_parse_cris_data.fetch_cris_data scheduled__2024-05-08T16:00:00+00:00 [running]> on host e8691f41e037
+[2024-05-15T07:23:08.943+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='fetch_and_parse_cris_data' AIRFLOW_CTX_TASK_ID='fetch_cris_data' AIRFLOW_CTX_EXECUTION_DATE='2024-05-08T16:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-05-08T16:00:00+00:00'
+[2024-05-15T07:23:08.946+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-15T07:23:29.999+0000] {logging_mixin.py:188} INFO - Failed to fetch data from the URL: 403
+[2024-05-15T07:23:30.000+0000] {python.py:237} INFO - Done. Returned value was: None
+[2024-05-15T07:23:30.001+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-15T07:23:30.012+0000] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=fetch_and_parse_cris_data, task_id=fetch_cris_data, execution_date=20240508T160000, start_date=20240515T072308, end_date=20240515T072330
+[2024-05-15T07:23:30.053+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-05-15T07:23:30.081+0000] {taskinstance.py:3482} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-05-15T07:23:30.083+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

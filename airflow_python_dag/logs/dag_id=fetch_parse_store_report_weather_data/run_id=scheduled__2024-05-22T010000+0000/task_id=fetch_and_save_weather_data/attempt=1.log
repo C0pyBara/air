@@ -1,0 +1,18 @@
+[2024-05-27T08:17:18.784+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-27T08:17:18.843+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fetch_parse_store_report_weather_data.fetch_and_save_weather_data scheduled__2024-05-22T01:00:00+00:00 [queued]>
+[2024-05-27T08:17:18.873+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fetch_parse_store_report_weather_data.fetch_and_save_weather_data scheduled__2024-05-22T01:00:00+00:00 [queued]>
+[2024-05-27T08:17:18.877+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 2
+[2024-05-27T08:17:18.932+0000] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): fetch_and_save_weather_data> on 2024-05-22 01:00:00+00:00
+[2024-05-27T08:17:18.966+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=18043) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-05-27T08:17:18.969+0000] {standard_task_runner.py:63} INFO - Started process 18268 to run task
+[2024-05-27T08:17:18.976+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'fetch_parse_store_report_weather_data', 'fetch_and_save_weather_data', 'scheduled__2024-05-22T01:00:00+00:00', '--job-id', '12009', '--raw', '--subdir', 'DAGS_FOLDER/cris.py', '--cfg-path', '/tmp/tmpt1yrlzyb']
+[2024-05-27T08:17:18.980+0000] {standard_task_runner.py:91} INFO - Job 12009: Subtask fetch_and_save_weather_data
+[2024-05-27T08:17:19.162+0000] {task_command.py:426} INFO - Running <TaskInstance: fetch_parse_store_report_weather_data.fetch_and_save_weather_data scheduled__2024-05-22T01:00:00+00:00 [running]> on host b151419bfa2a
+[2024-05-27T08:17:35.358+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 12009 for task fetch_and_save_weather_data ((psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8); 18268)
+[2024-05-27T08:17:36.957+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-05-27T08:17:37.017+0000] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-05-27T08:17:37.031+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

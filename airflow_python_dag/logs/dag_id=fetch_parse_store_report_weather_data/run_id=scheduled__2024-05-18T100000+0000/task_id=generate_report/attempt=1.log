@@ -1,0 +1,17 @@
+[2024-05-27T08:07:59.618+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-27T08:07:59.774+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fetch_parse_store_report_weather_data.generate_report scheduled__2024-05-18T10:00:00+00:00 [queued]>
+[2024-05-27T08:07:59.812+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fetch_parse_store_report_weather_data.generate_report scheduled__2024-05-18T10:00:00+00:00 [queued]>
+[2024-05-27T08:07:59.813+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 2
+[2024-05-27T08:07:59.856+0000] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): generate_report> on 2024-05-18 10:00:00+00:00
+[2024-05-27T08:07:59.945+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=13088) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-05-27T08:07:59.952+0000] {standard_task_runner.py:63} INFO - Started process 13290 to run task
+[2024-05-27T08:07:59.972+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'fetch_parse_store_report_weather_data', 'generate_report', 'scheduled__2024-05-18T10:00:00+00:00', '--job-id', '11686', '--raw', '--subdir', 'DAGS_FOLDER/cris.py', '--cfg-path', '/tmp/tmpem8rg4ab']
+[2024-05-27T08:07:59.975+0000] {standard_task_runner.py:91} INFO - Job 11686: Subtask generate_report
+[2024-05-27T08:08:10.394+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 11686 for task generate_report ((psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8); 13290)
+[2024-05-27T08:08:12.753+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-05-27T08:08:13.099+0000] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-05-27T08:08:13.107+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

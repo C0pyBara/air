@@ -1,0 +1,5 @@
+FROM apache/airflow:2.9.0
+COPY requirements.txt .
+# Ð£ÑÑÐ°Ð½Ð¾Ð²Ð¸ÑÐµ Ð½ÐµÐ¾Ð±ÑÐ¾Ð´Ð¸Ð¼ÑÐµ Ð±Ð¸Ð±Ð»Ð¸Ð¾ÑÐµÐºÐ¸
+RUN pip install matplotlib pandas  
+RUN pip install --no-cache-dir -r requirements.txt
